@@ -1,0 +1,24 @@
+Start checking: check_status_is_200
+
+Act_result = 200
+Exp__result = 200
+Done checking: check_status_is_200
+
+Start checking: check_header_content_type
+
+Act_result = text/html; charset=UTF-8
+Exp__result = text/html; charset=UTF-8
+Done checking: check_header_content_type
+
+Start checking: check_jsonschema
+
+Act_result = {'vk_0': '4439', 'ok_0': '25', 'wa_0': '1', 'vi_0': '2483', 'tg_0': '2871', 'wb_0': '3700', 'go_0': '6400', 'fb_0': '0', 'tw_0': '1876', 'ub_0': '6007', 'sn_0': '1578', 'ig_0': '14', 'ss_0': '0', 'ym_0': '25', 'ma_0': '25', 'mm_0': '1238', 'uk_0': '2123', 'me_0': '3598', 'mb_0': '225', 'we_0': '25', 'kp_0': '2985', 'ya_0': '2584', 'mt_0': '379', 'oi_0': '5479', 'kt_0': '4553', 'pm_0': '2147', 'tn_0': '1760', 'qq_0': '1753', 'pf_0': '4429', 'yl_0': '2501', 'nv_0': '4050', 'nf_0': '5486', 'iq_0': '575', 'im_0': '25', 'mc_0': '1930', 'ds_0': '1353', 'lf_0': '1478', 'wg_0': '4118', 'rr_0': '963', 'zh_0': '1412', 'am_0': '7047', 'ls_0': '360', 'bl_0': '25', 'fu_0': '1068', 'bf_0': '1101', 'zy_0': '1180', 'tx_0': '344', 'ka_0': '683', 'hw_0': '2598', 'nz_0': '1510', 'za_0': '508', 'zr_0': '4060', 'xv_0': '1882', 'xz_0': '574', 'zk_0': '1450', 'ew_0': '2837', 'dh_0': '5327', 'yw_0': '907', 'uz_0': '2118', 're_0': '1864', 'ts_0': '4252', 'rt_0': '740', 'sf_0': '0', 'bz_0': '2167', 'wc_0': '1029', 'jg_0': '625', 'rm_0': '1654', 'dr_0': '2340'}
+Exp__result = {'type': 'object', 'patternProperties': {'^[a-z]{2,3}_\\d$': {'type': 'string', 'pattern': '^[0-9]+$'}}, 'additionalProperties': False}
+Done checking: check_jsonschema
+
+Start checking: check_time_response_less_600_ms
+
+Act_result = 0.36605
+Exp__result = 0.6
+Done checking: check_time_response_less_600_ms
+

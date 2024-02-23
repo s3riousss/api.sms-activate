@@ -1,0 +1,24 @@
+Start checking: check_status_is_200
+
+Act_result = 200
+Exp__result = 200
+Done checking: check_status_is_200
+
+Start checking: check_header_content_type
+
+Act_result = text/html; charset=UTF-8
+Exp__result = text/html; charset=UTF-8
+Done checking: check_header_content_type
+
+Start checking: check_jsonschema
+
+Act_result = {'vk_0': '33', 'wa_0': '0', 'vi_0': '2004', 'tg_0': '7', 'wb_0': '1749', 'go_0': '47', 'fb_0': '136', 'tw_0': '5486', 'ub_0': '9797', 'sn_0': '7907', 'ig_0': '3529', 'mm_0': '7289', 'uk_0': '6319', 'me_0': '6016', 'mb_0': '635', 'mt_0': '1844', 'oi_0': '1212', 'kt_0': '10601', 'pm_0': '1272', 'tn_0': '2208', 'qq_0': '2551', 'pf_0': '4404', 'yl_0': '1238', 'nv_0': '2109', 'nf_0': '5835', 'ds_0': '5521', 'lf_0': '36', 'zh_0': '2488', 'gp_0': '2359', 'am_0': '4794', 'dp_0': '3014', 'fx_0': '2958', 'bl_0': '2739', 'fu_0': '2550', 'ua_0': '3523', 'tx_0': '6868', 'hw_0': '569', 'df_0': '3019', 'nz_0': '4482', 'kf_0': '2341', 'za_0': '2531', 'xv_0': '2791', 'li_0': '1491', 'zk_0': '7056', 'yi_0': '6127', 'ew_0': '5183', 'dh_0': '5679', 'yw_0': '2890', 're_0': '7769', 'ts_0': '7677', 'bz_0': '2995', 'xk_0': '7776', 'wc_0': '7044', 'th_0': '5708', 'xr_0': '2953', 'fs_0': '2616', 'ul_0': '8612', 'an_0': '4154', 'wx_0': '2912', 'et_0': '2722', 'dl_0': '2990', 'cn_0': '2947', 'jq_0': '702', 'xf_0': '2800', 'ij_0': '7119', 'bo_0': '2312', 'kc_0': '3680', 'vz_0': '3902', 'mo_0': '2297', 'dr_0': '4596', 'yq_0': '2262', 'bw_0': '638', 'ie_0': '937', 'kk_0': '1889', 'kq_0': '2607', 'lz_0': '2611', 'mp_0': '2611', 'mv_0': '2609', 'ns_0': '2611', 'oj_0': '2596', 'ox_0': '2596', 'qv_0': '2548', 'yr_0': '791', 'abc_0': '2344', 'abk_0': '2285', 'aer_0': '2346', 'ajd_0': '2341', 'ot_0': '1020'}
+Exp__result = {'type': 'object', 'patternProperties': {'^[a-z]{2,3}_\\d$': {'type': 'string', 'pattern': '^[0-9]+$'}}, 'additionalProperties': False}
+Done checking: check_jsonschema
+
+Start checking: check_time_response_less_600_ms
+
+Act_result = 0.41393
+Exp__result = 0.6
+Done checking: check_time_response_less_600_ms
+

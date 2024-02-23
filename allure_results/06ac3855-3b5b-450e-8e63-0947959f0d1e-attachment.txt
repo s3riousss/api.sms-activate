@@ -1,0 +1,24 @@
+Start checking: check_status_is_200
+
+Act_result = 200
+Exp__result = 200
+Done checking: check_status_is_200
+
+Start checking: check_header_content_type
+
+Act_result = text/html; charset=UTF-8
+Exp__result = text/html; charset=UTF-8
+Done checking: check_header_content_type
+
+Start checking: check_jsonschema
+
+Act_result = {'vk_0': '2204', 'ok_0': '2996', 'wa_0': '1273', 'vi_0': '6075', 'tg_0': '1', 'wb_0': '2799', 'go_0': '2335', 'fb_0': '2710', 'tw_0': '3031', 'ub_0': '3140', 'qw_0': '409', 'sn_0': '3683', 'ig_0': '1349', 'ma_0': '3463', 'mm_0': '1673', 'uk_0': '3170', 'me_0': '10263', 'mb_0': '1957', 'ya_0': '3069', 'mt_0': '2609', 'oi_0': '1799', 'fd_0': '4663', 'kt_0': '6136', 'pm_0': '1994', 'tn_0': '2884', 'qq_0': '4486', 'pf_0': '14701', 'yl_0': '4718', 'nv_0': '2923', 'nf_0': '2689', 'iq_0': '3066', 'im_0': '3029', 'mc_0': '3790', 'ds_0': '2635', 'lf_0': '2039', 'wg_0': '3166', 'rr_0': '3148', 'zh_0': '2996', 'gp_0': '3448', 'am_0': '809', 'dp_0': '2806', 'fx_0': '3151', 'ls_0': '3132', 'bl_0': '2946', 'fu_0': '2698', 'bf_0': '3081', 'zy_0': '3095', 'tx_0': '3303', 'ka_0': '3132', 'ip_0': '3132', 'hw_0': '2442', 'nz_0': '4280', 'kf_0': '2964', 'za_0': '2989', 'zr_0': '11912', 'xv_0': '3082', 'li_0': '3016', 'xz_0': '10018', 'zk_0': '3827', 'ew_0': '2990', 'dh_0': '5075', 'yw_0': '2911', 'uz_0': '10139', 're_0': '3979', 'ts_0': '5643', 'rt_0': '9623', 'sf_0': '2945', 'bz_0': '10435', 'xk_0': '3662', 'ry_0': '3132', 'wc_0': '4004', 'jg_0': '2996', 'th_0': '9368', 'xr_0': '3418', 'fs_0': '3087', 'ul_0': '4639', 'rm_0': '2996', 'wx_0': '1798', 'et_0': '2946', 'ij_0': '9986', 'bo_0': '2946', 'kc_0': '4484', 'vz_0': '2663', 'mo_0': '3143', 'dr_0': '4858', 'yq_0': '2994', 'bw_0': '2870', 'mv_0': '3047', 'qv_0': '3047', 'abc_0': '2962', 'abk_0': '2994', 'ael_0': '3086', 'afw_0': '2995', 'aga_0': '2959', 'agl_0': '2960', 'ahw_0': '2956', 'akc_0': '2962', 'ot_0': '2035'}
+Exp__result = {'type': 'object', 'patternProperties': {'^[a-z]{2,3}_\\d$': {'type': 'string', 'pattern': '^[0-9]+$'}}, 'additionalProperties': False}
+Done checking: check_jsonschema
+
+Start checking: check_time_response_less_600_ms
+
+Act_result = 0.365933
+Exp__result = 0.6
+Done checking: check_time_response_less_600_ms
+

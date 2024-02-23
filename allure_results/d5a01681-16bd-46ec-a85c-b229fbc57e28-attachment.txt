@@ -1,0 +1,24 @@
+Start checking: check_status_is_200
+
+Act_result = 200
+Exp__result = 200
+Done checking: check_status_is_200
+
+Start checking: check_header_content_type
+
+Act_result = text/html; charset=UTF-8
+Exp__result = text/html; charset=UTF-8
+Done checking: check_header_content_type
+
+Start checking: check_jsonschema
+
+Act_result = {'vk_0': '29', 'ok_0': '4725', 'wa_0': '0', 'vi_0': '4171', 'tg_0': '0', 'wb_0': '4918', 'go_0': '8315', 'fb_0': '6468', 'tw_0': '2742', 'ub_0': '5864', 'qw_0': '2001', 'sn_0': '7304', 'ig_0': '873', 'mm_0': '2227', 'uk_0': '7353', 'me_0': '8155', 'mb_0': '2397', 'mt_0': '4273', 'oi_0': '8756', 'fd_0': '3095', 'zz_0': '7383', 'kt_0': '9679', 'pm_0': '3727', 'tn_0': '4143', 'qq_0': '7209', 'nv_0': '4981', 'nf_0': '8033', 'ds_0': '6509', 'lf_0': '5957', 'rr_0': '5425', 'zh_0': '5898', 'gp_0': '5756', 'am_0': '1766', 'dp_0': '7282', 'fx_0': '6887', 'bl_0': '5894', 'fu_0': '7383', 'ua_0': '7430', 'tx_0': '3926', 'ip_0': '7383', 'hw_0': '3146', 'df_0': '7384', 'nz_0': '7295', 'kf_0': '7354', 'za_0': '4382', 'xv_0': '5896', 'li_0': '3237', 'zk_0': '7031', 'ew_0': '4420', 'dh_0': '5615', 'yw_0': '7355', 're_0': '7309', 'ts_0': '6486', 'bz_0': '5938', 'xk_0': '7295', 'ry_0': '7383', 'mj_0': '5657', 'xr_0': '6280', 'fs_0': '5398', 'ul_0': '8759', 'wx_0': '5698', 'et_0': '5896', 'cn_0': '7380', 'vp_0': '7376', 'aq_0': '5695', 'jq_0': '6240', 'pz_0': '5880', 'ij_0': '15587', 'zo_0': '7170', 'bo_0': '2887', 'vm_0': '7341', 'kc_0': '7928', 'vz_0': '5695', 'mo_0': '7313', 'dr_0': '9302', 'yq_0': '3876', 'bw_0': '3128', 'ie_0': '8299', 'lz_0': '6020', 'ox_0': '6019', 'qv_0': '5506', 'xo_0': '3970', 'abc_0': '3963', 'abk_0': '3688', 'adt_0': '3958', 'ahd_0': '3932', 'ait_0': '2993', 'ot_0': '3176'}
+Exp__result = {'type': 'object', 'patternProperties': {'^[a-z]{2,3}_\\d$': {'type': 'string', 'pattern': '^[0-9]+$'}}, 'additionalProperties': False}
+Done checking: check_jsonschema
+
+Start checking: check_time_response_less_600_ms
+
+Act_result = 0.36992
+Exp__result = 0.6
+Done checking: check_time_response_less_600_ms
+

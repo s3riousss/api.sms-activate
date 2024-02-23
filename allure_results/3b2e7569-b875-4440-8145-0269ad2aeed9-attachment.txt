@@ -1,0 +1,24 @@
+Start checking: check_status_is_200
+
+Act_result = 200
+Exp__result = 200
+Done checking: check_status_is_200
+
+Start checking: check_header_content_type
+
+Act_result = text/html; charset=UTF-8
+Exp__result = text/html; charset=UTF-8
+Done checking: check_header_content_type
+
+Start checking: check_jsonschema
+
+Act_result = {'vk_0': '4628', 'ok_0': '4773', 'wa_0': '304', 'vi_0': '4058', 'tg_0': '243', 'wb_0': '2273', 'go_0': '3630', 'fb_0': '2805', 'tw_0': '3564', 'ub_0': '4662', 'ig_0': '613', 'mm_0': '2715', 'uk_0': '5098', 'me_0': '2524', 'mb_0': '4505', 'mt_0': '6943', 'oi_0': '5101', 'kt_0': '19840', 'pm_0': '3734', 'tn_0': '4904', 'qq_0': '8078', 'pf_0': '7186', 'yl_0': '6054', 'nv_0': '4940', 'nf_0': '18319', 'iq_0': '4593', 'im_0': '4783', 'mc_0': '5765', 'ds_0': '3188', 'lf_0': '2311', 'zh_0': '4896', 'gp_0': '5187', 'am_0': '233', 'dp_0': '4603', 'bl_0': '4847', 'fu_0': '5708', 'tx_0': '6243', 'ka_0': '5295', 'hw_0': '661', 'rl_0': '4868', 'nz_0': '5199', 'kf_0': '5222', 'za_0': '4848', 'li_0': '4519', 'zk_0': '4832', 'yi_0': '4705', 'ew_0': '7322', 'dh_0': '19445', 'yw_0': '4705', 'ts_0': '8975', 'bz_0': '5263', 'xk_0': '6219', 'pu_0': '4687', 'jg_0': '4887', 'mj_0': '5507', 'xr_0': '4609', 'fs_0': '4833', 'fj_0': '4416', 'gj_0': '5187', 'wx_0': '3596', 'et_0': '4980', 'dl_0': '6792', 'cn_0': '5080', 'vp_0': '4594', 'qf_0': '4324', 'ni_0': '5123', 'kr_0': '4473', 'hb_0': '5241', 'wh_0': '5111', 'zs_0': '4613', 'ys_0': '5590', 'vz_0': '7091', 'mo_0': '6077', 'dr_0': '5694', 'xx_0': '4567', 'fh_0': '4983', 'rs_0': '4980', 'cv_0': '4472', 'zj_0': '4850', 'zu_0': '4978', 'nm_0': '4567', 'ho_0': '4566', 'wv_0': '4982', 'yq_0': '4763', 'bw_0': '4906', 'bx_0': '5583', 'dq_0': '4253', 'gq_0': '4347', 'lz_0': '4472', 'mv_0': '5489', 'qv_0': '4981', 'zb_0': '4434', 'aaq_0': '4339', 'aas_0': '4340', 'aav_0': '3894', 'aax_0': '3911', 'abi_0': '4339', 'abk_0': '4762', 'abq_0': '4755', 'abr_0': '3911', 'acj_0': '4335', 'ada_0': '4325', 'ajf_0': '3691', 'ajg_0': '3691', 'aje_0': '3909', 'ajh_0': '4120', 'ajp_0': '3911', 'anf_0': '4535', 'ot_0': '4375'}
+Exp__result = {'type': 'object', 'patternProperties': {'^[a-z]{2,3}_\\d$': {'type': 'string', 'pattern': '^[0-9]+$'}}, 'additionalProperties': False}
+Done checking: check_jsonschema
+
+Start checking: check_time_response_less_600_ms
+
+Act_result = 0.339378
+Exp__result = 0.6
+Done checking: check_time_response_less_600_ms
+

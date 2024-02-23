@@ -1,0 +1,24 @@
+Start checking: check_status_is_200
+
+Act_result = 200
+Exp__result = 200
+Done checking: check_status_is_200
+
+Start checking: check_header_content_type
+
+Act_result = text/html; charset=UTF-8
+Exp__result = text/html; charset=UTF-8
+Done checking: check_header_content_type
+
+Start checking: check_jsonschema
+
+Act_result = {'vk_0': '132519', 'ok_0': '137196', 'wa_0': '128989', 'vi_0': '134992', 'tg_0': '153574', 'wb_0': '133958', 'go_0': '158767', 'fb_0': '187435', 'tw_0': '135105', 'ub_0': '139366', 'ig_0': '133738', 'ss_0': '137447', 'ma_0': '137204', 'mm_0': '122921', 'uk_0': '135675', 'me_0': '135050', 'mb_0': '135536', 'ya_0': '135020', 'mt_0': '139361', 'oi_0': '141616', 'kt_0': '135074', 'pm_0': '139994', 'tn_0': '135354', 'qq_0': '13297', 'pf_0': '140259', 'yl_0': '137204', 'nv_0': '263256', 'nf_0': '135051', 'im_0': '250903', 'ds_0': '135588', 'lf_0': '134452', 'wg_0': '137415', 'rr_0': '133905', 'zh_0': '135259', 'gp_0': '135673', 'am_0': '130452', 'ly_0': '133066', 'dp_0': '139360', 'fu_0': '312688', 'ka_0': '137411', 'hw_0': '134192', 'nz_0': '133100', 'kf_0': '139726', 'za_0': '137411', 'li_0': '137483', 'ew_0': '142680', 'yw_0': '140288', 'ts_0': '135067', 'wc_0': '135686', 'fs_0': '129501', 'fj_0': '135255', 'qo_0': '137414', 'wx_0': '134259', 'lt_0': '137410', 'jq_0': '133095', 'zo_0': '139361', 'yg_0': '135253', 'oz_0': '133101', 'kc_0': '164647', 'tu_0': '135255', 'dr_0': '147316', 'yq_0': '129500', 'bw_0': '135490', 'ck_0': '135253', 'dc_0': '135253', 'ef_0': '135253', 'ep_0': '135257', 'wr_0': '133096', 'abk_0': '129500', 'acc_0': '133096', 'acz_0': '130046', 'aer_0': '130903', 'agk_0': '130922', 'ahi_0': '130902', 'ala_0': '133096', 'aln_0': '134125', 'anj_0': '129000', 'ot_0': '140139'}
+Exp__result = {'type': 'object', 'patternProperties': {'^[a-z]{2,3}_\\d$': {'type': 'string', 'pattern': '^[0-9]+$'}}, 'additionalProperties': False}
+Done checking: check_jsonschema
+
+Start checking: check_time_response_less_600_ms
+
+Act_result = 0.369405
+Exp__result = 0.6
+Done checking: check_time_response_less_600_ms
+

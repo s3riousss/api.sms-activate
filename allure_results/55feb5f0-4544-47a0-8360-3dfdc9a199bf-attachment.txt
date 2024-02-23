@@ -1,0 +1,24 @@
+Start checking: check_status_is_200
+
+Act_result = 200
+Exp__result = 200
+Done checking: check_status_is_200
+
+Start checking: check_header_content_type
+
+Act_result = text/html; charset=UTF-8
+Exp__result = text/html; charset=UTF-8
+Done checking: check_header_content_type
+
+Start checking: check_jsonschema
+
+Act_result = {'vk_0': '0', 'ok_0': '0', 'wa_0': '0', 'vi_0': '0', 'tg_0': '0', 'wb_0': '0', 'go_0': '0', 'fb_0': '0', 'tw_0': '0', 'ub_0': '0', 'ig_0': '0', 'uk_0': '0', 'mb_0': '0', 'mt_0': '0', 'oi_0': '0', 'kt_0': '0', 'pm_0': '0', 'qq_0': '0', 'pf_0': '0', 'yl_0': '0', 'nv_0': '0', 'nf_0': '0', 'im_0': '0', 'ds_0': '0', 'lf_0': '0', 'wg_0': '0', 'am_0': '0', 'bl_0': '0', 'za_0': '0', 'sq_0': '0', 'ew_0': '0', 'dh_0': '0', 'ts_0': '0', 'lt_0': '0', 'dr_0': '0', 'ot_0': '0'}
+Exp__result = {'type': 'object', 'patternProperties': {'^[a-z]{2,3}_\\d$': {'type': 'string', 'pattern': '^[0-9]+$'}}, 'additionalProperties': False}
+Done checking: check_jsonschema
+
+Start checking: check_time_response_less_600_ms
+
+Act_result = 0.35779
+Exp__result = 0.6
+Done checking: check_time_response_less_600_ms
+

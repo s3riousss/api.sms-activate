@@ -1,0 +1,18 @@
+Start checking: check_header_content_type
+
+Act_result = text/html; charset=UTF-8
+Exp__result = text/html; charset=UTF-8
+Done checking: check_header_content_type
+
+Start checking: check_status_is_403
+
+Act_result = 403
+Exp__result = 403
+Done checking: check_status_is_403
+
+Start checking: check_time_response_less_600_ms
+
+Act_result = 0.3223
+Exp__result = 0.6
+Done checking: check_time_response_less_600_ms
+

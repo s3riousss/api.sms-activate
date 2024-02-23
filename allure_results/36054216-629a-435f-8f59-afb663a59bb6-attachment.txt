@@ -1,0 +1,24 @@
+Start checking: check_status_is_200
+
+Act_result = 200
+Exp__result = 200
+Done checking: check_status_is_200
+
+Start checking: check_header_content_type
+
+Act_result = text/html; charset=UTF-8
+Exp__result = text/html; charset=UTF-8
+Done checking: check_header_content_type
+
+Start checking: check_jsonschema
+
+Act_result = {'vk_0': '362', 'ok_0': '773', 'wa_0': '260', 'vi_0': '4187', 'tg_0': '2', 'wb_0': '556', 'go_0': '24', 'fb_0': '226', 'tw_0': '4499', 'ub_0': '7968', 'qw_0': '325', 'gt_0': '2860', 'sn_0': '3927', 'ig_0': '6384', 'ss_0': '1066', 'ym_0': '1090', 'ma_0': '3583', 'mm_0': '627', 'uk_0': '2805', 'me_0': '3460', 'mb_0': '394', 'we_0': '1305', 'bd_0': '1305', 'kp_0': '1306', 'ya_0': '4575', 'mt_0': '4674', 'oi_0': '2903', 'fd_0': '2041', 'zz_0': '1305', 'kt_0': '8003', 'pm_0': '403', 'tn_0': '2903', 'qq_0': '2898', 'pf_0': '6089', 'yl_0': '3202', 'nv_0': '5685', 'nf_0': '7285', 'iq_0': '1062', 'im_0': '2281', 'mc_0': '4207', 'ds_0': '5941', 'lf_0': '491', 'wg_0': '3090', 'rr_0': '2627', 'zh_0': '832', 'gp_0': '3309', 'am_0': '4324', 'dp_0': '3438', 'fx_0': '1302', 'ls_0': '3234', 'bl_0': '1070', 'fu_0': '3736', 'bf_0': '1069', 'zy_0': '1070', 'tx_0': '1376', 'ka_0': '1851', 'hw_0': '4307', 'nz_0': '5559', 'kf_0': '833', 'cc_0': '1302', 'za_0': '2379', 'zr_0': '5476', 'xv_0': '1070', 'li_0': '681', 'xz_0': '2747', 'zk_0': '4065', 'ew_0': '819', 'dh_0': '6845', 'yw_0': '2252', 'uz_0': '2753', 're_0': '4480', 'ts_0': '5301', 'rt_0': '2751', 'sf_0': '1066', 'bz_0': '4515', 'ry_0': '1301', 'wc_0': '4251', 'jg_0': '1069', 'mj_0': '6494', 'th_0': '2446', 'fs_0': '832', 'ul_0': '5665', 'rm_0': '1069', 'fj_0': '1065', 'an_0': '2677', 'wx_0': '3824', 'et_0': '1070', 'dl_0': '3694', 'jq_0': '4198', 'hb_0': '2965', 'ij_0': '3920', 'bo_0': '679', 'vm_0': '3594', 'kc_0': '3456', 'yu_0': '1069', 'mo_0': '2238', 'dr_0': '2971', 'bw_0': '348', 'ie_0': '1225', 'qv_0': '1064', 'abc_0': '830', 'agk_0': '681', 'ot_0': '369'}
+Exp__result = {'type': 'object', 'patternProperties': {'^[a-z]{2,3}_\\d$': {'type': 'string', 'pattern': '^[0-9]+$'}}, 'additionalProperties': False}
+Done checking: check_jsonschema
+
+Start checking: check_time_response_less_600_ms
+
+Act_result = 0.350521
+Exp__result = 0.6
+Done checking: check_time_response_less_600_ms
+

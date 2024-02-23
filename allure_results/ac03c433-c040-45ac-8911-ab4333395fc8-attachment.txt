@@ -1,0 +1,24 @@
+Start checking: check_status_is_200
+
+Act_result = 200
+Exp__result = 200
+Done checking: check_status_is_200
+
+Start checking: check_header_content_type
+
+Act_result = text/html; charset=UTF-8
+Exp__result = text/html; charset=UTF-8
+Done checking: check_header_content_type
+
+Start checking: check_jsonschema
+
+Act_result = {'vk_0': '0', 'wa_0': '48303', 'vi_0': '50150', 'tg_0': '0', 'wb_0': '136689', 'go_0': '15', 'fb_0': '15988', 'tw_0': '136782', 'ub_0': '136989', 'sn_0': '101447', 'ig_0': '65955', 'ma_0': '101362', 'mm_0': '66112', 'uk_0': '136780', 'me_0': '161988', 'mb_0': '66183', 'kp_0': '60155', 'ya_0': '161750', 'mt_0': '136780', 'oi_0': '66154', 'kt_0': '50387', 'pm_0': '66173', 'tn_0': '101490', 'qq_0': '136785', 'pf_0': '161798', 'yl_0': '66381', 'nv_0': '66357', 'nf_0': '136997', 'iq_0': '101488', 'im_0': '60174', 'mc_0': '85187', 'ds_0': '66364', 'lf_0': '66172', 'wg_0': '85184', 'rr_0': '126490', 'zh_0': '101490', 'am_0': '66176', 'dp_0': '66176', 'ls_0': '85174', 'bl_0': '101478', 'fu_0': '136791', 'bf_0': '55159', 'ua_0': '136782', 'zy_0': '101492', 'tx_0': '101495', 'ka_0': '136982', 'ip_0': '136756', 'hw_0': '142044', 'rl_0': '55185', 'nz_0': '136792', 'kf_0': '66155', 'za_0': '60184', 'zr_0': '66248', 'xv_0': '101464', 'li_0': '66369', 'xz_0': '80190', 'zk_0': '161797', 'ew_0': '136998', 'dh_0': '161991', 'yw_0': '161792', 'uz_0': '80185', 're_0': '161781', 'ts_0': '136985', 'rt_0': '80188', 'sf_0': '50150', 'bz_0': '161786', 'ry_0': '136756', 'wc_0': '161798', 'jg_0': '55175', 'pp_0': '50171', 'th_0': '50150', 'fs_0': '50007', 'rm_0': '101435', 'qh_0': '101355', 'an_0': '136782', 'wx_0': '136758', 'yu_0': '50149', 'rc_0': '55164', 'gs_0': '50052', 'yq_0': '49860', 'mv_0': '50123', 'qv_0': '50000', 'um_0': '50000', 'abk_0': '49665', 'adq_0': '50116', 'ot_0': '65696'}
+Exp__result = {'type': 'object', 'patternProperties': {'^[a-z]{2,3}_\\d$': {'type': 'string', 'pattern': '^[0-9]+$'}}, 'additionalProperties': False}
+Done checking: check_jsonschema
+
+Start checking: check_time_response_less_600_ms
+
+Act_result = 0.378504
+Exp__result = 0.6
+Done checking: check_time_response_less_600_ms
+
