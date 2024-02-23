@@ -1,0 +1,8 @@
+"Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
+"","Check Get request","Check request available_numbers country UA and operators","0","0","5","0","0"
+"","Check Get request","Check request available_numbers all country(0-201) without operator","0","0","202","0","0"
+"","Check Get request","Check negative case bad_api_key","0","0","1","0","0"
+"","Check Get request","Check negative Method requests PUT, PATCH, DELETE","0","0","3","0","0"
+"","Check Get request","Check request available_numbers country RU and operators","0","0","6","0","0"
+"","Check Get request","Check request available_numbers country KZ and operators","0","0","4","0","0"
+"","Check Get request","Check request available_numbers with POST method","0","0","1","0","0"
