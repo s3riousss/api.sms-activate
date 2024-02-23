@@ -50,11 +50,3 @@ class GetRequest(BaseEndpoint):
         # print(self.response.headers)
         # print(self.response.status_code)
         return self.response
-
-    @allure.step('Post request for get available numbers')
-    def post_request_negative(self):
-        self.response = requests.post(
-            url=f'{self.base_url}?api_key={self.base_api_key}'
-                f'&action=getNumbersStatus&country=0',
-            headers=self.base_headers
-        )
