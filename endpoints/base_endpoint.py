@@ -1,48 +1,16 @@
 import allure
-import pytest
-import requests
-import inspect
-import jsonschema
+import os
+import dotenv
+from check_functions.check_functions import assert_check, check_time, check_json
 
 
-def assert_check(act, exp, message):
-    stack = inspect.stack()
-    name_function = stack[1].function
-    print(f'Start checking: {name_function}\n')
-    print(f'Act_result = {act}')
-    print(f'Exp__result = {exp}')
-    assert act == exp,  f'\n{message}\n'\
-                        f'Actual_result = {act}\n'\
-                        f'Expected_result = {exp}\n'
-    print(f'Done checking: {name_function}\n')
-
-
-def check_time(act, exp, message):
-    stack = inspect.stack()
-    name_function = stack[1].function
-    print(f'Start checking: {name_function}\n')
-    print(f'Act_result = {act}')
-    print(f'Exp__result = {exp}')
-    assert act < exp, f'\n{message}\n'\
-                      f'Actual_result = {act}\n'\
-                      f'Expected_result = {exp}\n'
-    print(f'Done checking: {name_function}\n')
-
-
-def check_json(act, exp):
-    stack = inspect.stack()
-    name_function = stack[1].function
-    print(f'Start checking: {name_function}\n')
-    print(f'Act_result = {act}')
-    print(f'Exp__result = {exp}')
-    jsonschema.validate(act, exp)
-    print(f'Done checking: {name_function}\n')
+dotenv.load_dotenv()
 
 
 class BaseEndpoint:
     base_url = 'https://api.sms-activate.org/stubs/handler_api.php'
     base_headers = None
-    base_api_key = '4fc33d904594d05A7f6631d9fd76b940'
+    base_api_key = os.getenv('BASE_API_KEY')
     json = None
     response = None
     pass

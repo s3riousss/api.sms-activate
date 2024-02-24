@@ -1,4 +1,6 @@
 import pytest
+import dotenv
+import os
 from endpoints.base_endpoint import BaseEndpoint
 from endpoints.get_endpoint import GetRequest
 from data.operators import ru, ua, kz
@@ -17,3 +19,9 @@ def get_endpoint():
 @pytest.fixture(scope='module')
 def operators():
     return ru, ua, kz
+
+
+@pytest.fixture()
+def api_key():
+    dotenv.load_dotenv()
+    return os.getenv('BASE_API_KEY')
