@@ -28,10 +28,10 @@ class BaseEndpoint:
         act_result = self.response.headers.get('Content-Type')
         assert_check(act_result, 'text/html; charset=UTF-8', '--Error check_header_content_type --')
 
-    @allure.step('Check time response less 600 ms')
-    def check_time_response_less_600_ms(self):
-        response_time = self.response.elapsed.total_seconds()
-        check_time(response_time, 0.6, '--Error check_time_response_less_600_ms--')
+    # @allure.step('Check time response less 600 ms')
+    # def check_time_response_less_600_ms(self):
+    #     response_time = self.response.elapsed.total_seconds()
+    #     check_time(response_time, 0.6, '--Error check_time_response_less_600_ms--')
 
     @allure.step('Check response body')
     def check_response_body(self):

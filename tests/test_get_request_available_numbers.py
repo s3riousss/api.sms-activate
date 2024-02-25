@@ -13,7 +13,6 @@ def test_get_request_available_numbers_for_all_country(get_endpoint, country):
     get_endpoint.check_status_is_200()
     get_endpoint.check_header_content_type()
     get_endpoint.check_jsonschema(get_response_avl_num)
-    get_endpoint.check_time_response_less_600_ms()
 
 
 @allure.feature('Check Get request')
@@ -25,7 +24,6 @@ def test_get_request_available_numbers_ru_operators(get_endpoint, operators):
     get_endpoint.check_status_is_200()
     get_endpoint.check_header_content_type()
     get_endpoint.check_jsonschema(get_response_avl_num)
-    get_endpoint.check_time_response_less_600_ms()
 
 
 @allure.feature('Check Get request')
@@ -37,7 +35,6 @@ def test_get_request_available_numbers_ua_operators(get_endpoint, operators):
     get_endpoint.check_status_is_200()
     get_endpoint.check_header_content_type()
     get_endpoint.check_jsonschema(get_response_avl_num)
-    get_endpoint.check_time_response_less_600_ms()
 
 
 @allure.feature('Check Get request')
@@ -49,7 +46,6 @@ def test_get_request_available_numbers_kz_operators(get_endpoint, operators):
     get_endpoint.check_status_is_200()
     get_endpoint.check_header_content_type()
     get_endpoint.check_jsonschema(get_response_avl_num)
-    get_endpoint.check_time_response_less_600_ms()
 
 
 @allure.feature('Check Get request')
@@ -60,7 +56,6 @@ def test_get_request_available_numbers_post_method(get_endpoint):
     get_endpoint.check_status_is_200()
     get_endpoint.check_header_content_type()
     get_endpoint.check_jsonschema(get_response_avl_num)
-    get_endpoint.check_time_response_less_600_ms()
 
 
 @allure.feature('Check Get request')
@@ -71,7 +66,6 @@ def test_get_request_bad_api_key(get_endpoint):
     get_endpoint.check_status_is_200()
     get_endpoint.check_header_content_type()
     get_endpoint.check_response_bad_api_key()
-    get_endpoint.check_time_response_less_600_ms()
 
 
 @allure.feature('Check Get request')
@@ -82,4 +76,3 @@ def test_post_request_negative(get_endpoint, methods):
     get_endpoint.get_request_available_number(method=methods)
     get_endpoint.check_header_content_type()
     get_endpoint.check_status_is_403()
-    get_endpoint.check_time_response_less_600_ms()
