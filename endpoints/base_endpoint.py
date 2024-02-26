@@ -13,7 +13,7 @@ class BaseEndpoint:
     base_api_key = os.getenv('BASE_API_KEY')
     json = None
     response = None
-    pass
+    
 
     @allure.step('Check response status_code is 200')
     def check_status_is_200(self):
